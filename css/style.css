@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container_1000 {
@@ -136,4 +136,24 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+}
+
+.col-lg-6 {
+  border: 1px solid purple;
+}
+
+.box_products {
+  padding: 80px;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+.img_products {
+  width: 100%;
+  height: 25px;
+}
+
+.img_section_products {
+  width: 100%;
+  text-align: center;
 }
