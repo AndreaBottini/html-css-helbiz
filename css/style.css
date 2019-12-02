@@ -139,13 +139,27 @@ header {
 }
 
 .col-lg-6 {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
+
+}
+
+.products {
+  margin-top: 50px;
 }
 
 .box_products {
+  width: 100%;
   padding: 80px;
   background-color: #FAFAFA;
   text-align: center;
+}
+
+.box_products_second {
+  width: 100%;
+  padding: 80px;
+  background-color: #FAFAFA;
+  text-align: center;
+  margin-left: 25px;
 }
 
 .img_products {
@@ -154,6 +168,18 @@ header {
 }
 
 .img_section_products {
-  width: 100%;
+  width: 30%;
   text-align: center;
+  display: block;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+h2 {
+  padding: 20px 0;
+
+}
+
+.box_products a {
+  display: inline-block;
 }
